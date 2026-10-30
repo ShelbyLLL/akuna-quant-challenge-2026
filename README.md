@@ -2,7 +2,7 @@
 
 A Python market-making bot for the Akuna Capital 2026 quant trading challenge. The bot quotes two-sided markets and responds to fill-or-kill (FOK) orders on binary options written on three correlated underlyings: a Fed Funds rate and two equities (Ajarai, Theriodic).
 
-> **Note:** `MarketMaker_N_0.863.py` is the submission file. It runs inside the challenge harness, which supplies `math`, `Underlying`, `BinaryOption`, `MarketParameters`, `Quote`, `FokOrder`, `OrderType`, `Position`, `MarketHistory` and the underlying-ID constants. It does not run on its own.
+> **Note:** `MarketMaker.py` is the submission file. It runs inside the challenge harness, which supplies `math`, `Underlying`, `BinaryOption`, `MarketParameters`, `Quote`, `FokOrder`, `OrderType`, `Position`, `MarketHistory` and the underlying-ID constants. It does not run on its own.
 
 ## Strategy overview
 
